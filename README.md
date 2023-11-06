@@ -16,7 +16,7 @@ Hemalatha Ningappa Kondakundi, did task 1(3 graphs), did task 3(Spatial visualiz
 Abhiram Anekal Vasudeva, did task 2  
 Yashwanth Reddy Dasari Reddy, did task 3  
 
-Task 2 and task 3 took most of the time in figuring out how to link the spatial data to the vegalite(altair).
+Task 2 and task 3 took most of the time in figuring out how to link Chicago Trafic Crashs - Crashs Dataset and chicago spatial data to the vegalite(altair).
 
 ### Data
 Our Data is Chicago Trafic Crashs - Crashs Dataset
