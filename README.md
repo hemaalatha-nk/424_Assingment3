@@ -10,6 +10,11 @@ Hemalatha Ningappa Kondakundi
 Abhiram Anekal Vasudeva  
 Yashwanth Reddy Dasari Reddy  
 
+### Data
+Our Data is Chicago Trafic Crashs - Crashs Dataset
+
+<a href="https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if">Traffic Crashes - Crashes | City of Chicago</a>  
+
 To Do this assingment we took almost 2 weeks time,  
 Rohan K S, did task 1(4 graphs)  
 Hemalatha Ningappa Kondakundi, did task 1(3 graphs), did task 3(Spatial visualization Graph 3(Linked view)), updated Readme File.   
@@ -18,10 +23,6 @@ Yashwanth Reddy Dasari Reddy, did task 3
 
 Task 2 and task 3 took most of the time in figuring out how to link Chicago Trafic Crashs - Crashs Dataset and chicago spatial data to the vegalite(altair).
 
-### Data
-Our Data is Chicago Trafic Crashs - Crashs Dataset
-
-<a href="https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if">Traffic Crashes - Crashes | City of Chicago</a>  
 
 # Task 1:Single view visualizations (vegalite):
 
