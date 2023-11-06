@@ -3,7 +3,7 @@
 # Visulization and Visual Analytics - CS 424
 ## Assignment 3
 
-Team VizMasters
+## Team VizMasters
 
 Rohan K S  
 Hemalatha Ningappa KondakundWe 
