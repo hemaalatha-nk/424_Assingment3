@@ -6,9 +6,9 @@
 ## Team VizMasters
 
 Rohan K S  
-Hemalatha Ningappa KondakundWe 
+Hemalatha Ningappa Kondakundi
 Abhiram Anekal Vasudeva  
-Yashwanth Reddy DasarWeReddy
+Yashwanth Reddy Dasari Reddy
 
 ### Data
 Our Data is Chicago Trafic Crashs - Crashs Dataset
