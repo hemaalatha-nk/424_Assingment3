@@ -393,3 +393,30 @@ Educate drivers about the dangers of driving in darkness and how to reduce their
 ![Number of fatal injuries per lighting condition and year, with slider filter](424_assingment3_graphs/task2_graph4_2.png)
 
 ![Number of fatal injuries per lighting condition and year, with slider filter](424_assingment3_graphs/task2_graph4_3.png)
+
+# Task 3: Spatial visualization (Vegalite + Altair):
+
+## Spatial visualization Graph 1:
+The attached visualization is a spatial map that shows the number of crashes in each Chicago beat area. The map is colored based on the number of crashes, with lighter colors indicating fewer crashes and darker colors indicating more crashes. The map also includes a tooltip that shows the beat number and the number of crashes in each beat area.
+
+### Attributes being visualized:
+Beat number (beat_num)
+Number of crashes (crash_count)
+
+### How We leveraged our sketch as a starting point for this visualization:
+We started by sketching out our ideas for the visualization. We wanted to create a visualization that would show the distribution of crashes across Chicago. We also wanted to include a way for users to interact with the visualization to explore the data in more detail.
+
+Once We had a rough sketch of our visualization, We began to build it using Altair. We used our sketch as a guide to determine the encodings for the map and the tooltip. We also used our sketch to experiment with different visual elements, such as the color scheme and the size of the beat areas.
+
+### Conclusion:
+By leveraging our sketch as a starting point for this visualization, We were able to create a simple but effective spatial map that clearly communicates the distribution of crashes across Chicago. We also enabled users to interact with the visualization to explore the data in more detail.
+
+### Additional insights from the visualization:
+The number of crashes varies widely across Chicago beat areas.
+The highest number of crashes are concentrated in the downtown area and along major highways.
+The lowest number of crashes are concentrated in the suburbs and in less densely populated areas.
+
+### Recommendations:
+Focus on reducing the number of crashes in beat areas with the highest number of crashes.
+Implement traffic safety measures in these beat areas, such as increasing police enforcement and improving road infrastructure.
+Educate drivers about the dangers of speeding and other reckless driving behaviors.
