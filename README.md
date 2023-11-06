@@ -6,9 +6,17 @@
 ## Team VizMasters
 
 Rohan K S  
-Hemalatha Ningappa Kondakundi
+Hemalatha Ningappa Kondakundi  
 Abhiram Anekal Vasudeva  
-Yashwanth Reddy Dasari Reddy
+Yashwanth Reddy Dasari Reddy  
+
+To Do this assingment we took almost 2 weeks time,  
+Rohan K S, did task 1(4 graphs)  
+Hemalatha Ningappa Kondakundi, did task 1(3 graphs), did task 3(Spatial visualization Graph 3(Linked view)), updated Readme File.   
+Abhiram Anekal Vasudeva, did task 2  
+Yashwanth Reddy Dasari Reddy, did task 3  
+
+Task 2 and task 3 took most of the time in figuring out how to link the spatial data to the vegalite(altair).
 
 ### Data
 Our Data is Chicago Trafic Crashs - Crashs Dataset
