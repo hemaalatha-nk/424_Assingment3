@@ -15,7 +15,7 @@ Our Data is Chicago Trafic Crashs - Crashs Dataset
 
 <a href="https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if">Traffic Crashes - Crashes | City of Chicago</a>  
 
-# Task 1:Single view visualizations (vegalite)
+# Task 1:Single view visualizations (vegalite):
 
 ## Graph 1:
 The attached bar graph visualizes the number of crashes per year based on the CRASH_DATE field. The x-axis is ordinal, meaning that the order of the values is meaningful. The y-axis is quantitative, meaning that the values represent a quantity.
@@ -424,7 +424,7 @@ Educate drivers about the dangers of speeding and other reckless driving behavio
 
 ![Number of crashes per police beat in Chicago](424_assingment3_graphs/task3_graph1_1.png)
 
-## Graph 2:
+## Spatial visualization Graph 2:
 The attached visualization is a dual-facet headmap that shows the number of fatal injuries per police beat and damage type in Chicago. The left facet shows the number of fatal injuries for crashes with property damage only, and the right facet shows the number of fatal injuries for crashes with injuries. The color of the beats indicates the number of fatal injuries, with darker colors indicating more fatal injuries. The tooltip displays the damage type and number of fatal injuries for each beat.
 
 ### Attributes being visualized:
@@ -452,7 +452,9 @@ Educate drivers about the dangers of speeding and other risky driving behaviors,
 
 ![Dual-facet headmap showing the number of fatal injuries per police beat and damage type in Chicago](424_assingment3_graphs/task3_graph2_1.png)
 
-## Graph 3:
+## Spatial visualization Graph 3(Linked view):
+I have tried to connect the bar graph 1 of task one showing the number of crashes per year to the spatial map showing the number of crashes per beat area in Chicago. The bar graph has an ordinal x-axis (meaning that the order of the values is meaningful) and a quantitative y-axis (meaning that the values represent a quantity). The spatial map is colored based on the number of crashes, with lighter colors indicating fewer crashes and darker colors indicating more crashes. The map also includes a tooltip that shows the beat number and the number of crashes in each beat area. 
+
 The attached visualization is a dual-faceted visualization that shows the number of fatal injuries per police beat and year in Chicago. The left facet is a bar chart that shows the average number of fatal injuries per year for the selected police beat. The right facet is a headmap that shows the number of fatal injuries per police beat for the selected year.
 
 ### Attributes being visualized:
