@@ -244,7 +244,7 @@ Invest in infrastructure and safety measures that can help to reduce the number 
 
 # Task 2: Linked view visualizations (vegalite + altair)
 
-## Graph 1: 
+## Linked view Graph 1: 
 The attached visualization consists of two charts: A bar chart. The scater plot and bar chart shows the total number of injuries per year, with the clircle size of the scater plot indicating the number of records in the selection. The bar chart shows the number of injuries per weather condition, with the color of the bars indicating whether i.e blue color when selected or grey when  the record is not in the selection.
 
 ### Attributes being visualized:
@@ -281,7 +281,7 @@ Invest in infrastructure and safety measures that can help to reduce the number 
 
 ![Crash frequency by hour and weather condition, with opacity indicating frequency.](424_assingment3_graphs/task1_graph1_3.png)
 
-## Graph 2: 
+## Linked view Graph 2: 
 
 The attached visualization is a selection histogram that shows the distribution of crash injuries per device condition and hour of day. The x-axis shows the average crash hour, the y-axis shows the day of the week, and the color of the bars indicates the device condition. The height of the bars indicates the number of crashes with the corresponding device condition and hour of day. When the user selects a device condition, the histogram is filtered to show only the crashes with that device condition.
 
@@ -320,7 +320,76 @@ Educate drivers about the importance of safe driving practices, regardless of th
 
 ![Distribution of crash injuries per device condition and hour of day, with selection histogram.](424_assingment3_graphs/task2_graph2_4.png)
 
+## Linked view Graph 3: 
 
+The attached visualization is a selection plot that shows the relationship between device condition, weather condition, and fatal injuries. The x-axis shows the weather condition, the y-axis shows the average number of fatal injuries, and the color of the lines and bars indicates the device condition. The width of the bars indicates the number of crashes with the corresponding device condition. When the user selects a range of weather conditions, the plot is filtered to show only the crashes occured by different device condition within that range of weather conditions. This allows users to see how the average number of fatal injuries varies depending on the device condition and weather condition.
 
+### Attributes being visualized:
+Device condition (DEVICE_CONDITION)
+Weather condition (WEATHER_CONDITION)
+Mean of fatal injuries (INJURIES_FATAL)
+Count of Records (Total count of crashes)
 
+### Interaction mechanisms and methods:
+Interaction mechanisms and methods: Interval selection
+The visualization uses a selection brush to allow users to select a range of weather conditions. When a range of weather conditions is selected, the plot is filtered to show only the crashes within that range of weather conditions. This allows users to see how the average number of fatal injuries varies depending on the device condition and weather condition.
 
+### How We leveraged our sketch as a starting point for this visualization:
+We started by sketching out our ideas for the visualization. We wanted to create a visualization that would show the relationship between device condition, weather condition, and fatal injuries. We also wanted to include a way for users to interact with the visualization to explore the data in more detail.
+
+Once We had a rough sketch of our visualization, We began to build it using Altair. We used our sketch as a guide to determine the encodings for the plot and the selection brush. We also used our sketch to experiment with different visual elements, such as the colors, shapes, and sizes of the marks.
+
+### Conclusion:
+By leveraging our sketch as a starting point for this visualization, We were able to create a simple but effective selection plot that clearly communicates the relationship between device condition, weather condition, and fatal injuries. We also enabled users to interact with the visualization to explore the data in more detail.
+
+### Additional insights from the visualization:
+Crashes with defective devices are more likely to result in fatal injuries than crashes with functioning devices.
+Crashes in rain and snow conditions are more likely to result in fatal injuries than crashes in clear conditions.
+The combination of a defective device and rain or snow conditions is particularly dangerous, as these crashes are most likely to result in fatal injuries.
+
+### Recommendations:
+Focus on improving the safety of devices to reduce the number of fatal injuries.
+Increase enforcement of traffic laws in rain and snow conditions to reduce the number of crashes overall.
+Educate drivers about the dangers of driving with defective devices, especially in rain and snow conditions.
+
+![Interactive visualization showing how the average number of fatal injuries varies depending on the device condition and weather condition](424_assingment3_graphs/task2_graph3_1.png)
+
+![Interactive visualization showing how the average number of fatal injuries varies depending on the device condition and weather condition](424_assingment3_graphs/task2_graph3_2.png)
+
+![Interactive visualization showing how the average number of fatal injuries varies depending on the device condition and weather condition](424_assingment3_graphs/task2_graph3_3.png)
+
+## Linked view Graph 4:
+The attached visualization is a slider filter that shows the number of fatal injuries per lighting condition and year. The x-axis shows the lighting condition, the y-axis shows the number of fatal injuries, and the color of the bars indicates the lighting condition. The slider allows users to select a specific year to filter the data.
+
+### Attributes being visualized:
+Lighting condition (LIGHTING_CONDITION)
+Year (YEAR)
+Number of fatal injuries (INJURIES_FATAL)
+
+### Interaction mechanisms and methods:
+Interaction mechanisms and methods: slider filte
+The visualization uses a slider filter to allow users to select a specific year to filter the data. When a year is selected, the plot is filtered to show only the crashes that occurred in that year. This allows users to see how the number of fatal injuries has changed over time for each lighting condition.
+
+### How We leveraged our sketch as a starting point for this visualization:
+We started by sketching out our ideas for the visualization. We wanted to create a visualization that would show how the number of fatal injuries has changed over time for each lighting condition. We also wanted to include a way for users to interact with the visualization to explore the data in more detail.
+
+Once We had a rough sketch of our visualization, We began to build it using Altair. We used our sketch as a guide to determine the encodings for the plot and the slider filter. We also used our sketch to experiment with different visual elements, such as the colors, shapes, and sizes of the marks.
+
+### Conclusion:
+By leveraging our sketch as a starting point for this visualization, We were able to create a simple but effective slider filter that clearly communicates how the number of fatal injuries has changed over time for each lighting condition. We also enabled users to interact with the visualization to explore the data in more detail.
+
+### Additional insights from the visualization:
+The number of fatal injuries has decreased over time for all lighting conditions.
+The number of fatal injuries is highest in darkness and lowest in daylight.
+The decrease in fatal injuries has been most pronounced in darkness.
+
+### Recommendations:
+Continue to work to reduce the number of fatal injuries in darkness, as this is the lighting condition with the highest number of fatal injuries.
+Focus on improving visibility for drivers and pedestrians in darkness, such as by installing better lighting and improving road markings.
+Educate drivers about the dangers of driving in darkness and how to reduce their risk of an accident.
+
+![Number of fatal injuries per lighting condition and year, with slider filter](424_assingment3_graphs/task2_graph4_1.png)
+
+![Number of fatal injuries per lighting condition and year, with slider filter](424_assingment3_graphs/task2_graph4_2.png)
+
+![Number of fatal injuries per lighting condition and year, with slider filter](424_assingment3_graphs/task2_graph4_3.png)
